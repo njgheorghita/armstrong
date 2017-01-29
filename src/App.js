@@ -7,15 +7,21 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h1>Armstrong</h1>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <ul>
+            <li> kaggle </li>
+            <li> tensorflow </li>
+            <li> scikit </li>
+            <li> blockchain </li>
+            <li> bitcoin </li>
+            <li> ethereum </li>
+          </ul>
         </p>
       </div>
-    );
-  }
+    )
+  }G
 }
 
 export default App;
